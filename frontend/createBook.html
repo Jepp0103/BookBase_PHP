@@ -1,0 +1,33 @@
+<h1 style="text-align: center;">Create book</h1>
+
+<form action="/createbook" method="POST" name="createbook" style="text-align: center; padding-bottom: 2em;">
+    <div class="row">
+        <div class="col-sm">
+            <label for="bookName">Name of book:</label><br>
+            <input name="bookName" type="text" id="bookName" class="form-control-sm"><br>
+
+            <label for="author">Author:</label><br>
+            <input type="text" id="author" name="author" class="form-control-sm"><br>
+
+            <label for="publisher">Publisher:</label><br>
+            <input type="text" id="publisher" name="publisher" class="form-control-sm"><br>
+        </div>
+        <div class="col-sm">
+
+            <label for="isbn">ISBN-number:</label><br>
+            <input type="text" id="isbn" name="isbn" class="form-control-sm"><br>
+
+            <label for="edition">Edition:</label><br>
+            <input type="text" id="edition" name="edition" class="form-control-sm"><br>
+
+            <label for="price">Price:</label><br>
+            <input type="text" id="price" name="price" class="form-control-sm"><br>
+
+            <label for="condition">Condition of book:</label><br>
+            <input type="text" id="condition" name="condition" class="form-control-sm"><br>
+            <!-- Skal i CSS-use casen laves om til en dropdown! -->
+        </div>
+    </div>
+
+    <input type="submit" value="Opret annonce for bog" class="btn btn-primary">
+</form>
