@@ -6,8 +6,13 @@
 
         $books = array();
 
-        while ($book = mysqli_fetch_array($result)) {
-            array_push($books, $book["book_name"], $book["price"]);
+        while ($book = mysqli_fetch_array($result)) { //Fetch array to get all values in query
+            array_push($books, (" Name: ". $book["book_name"] 
+                               .", Price: ". $book["price"] . " DKK" //Dots for space in between
+                               .", Author: ". $book["author"]
+                               .", Publisher: ". $book["publisher"]
+                               .", ISBN: ". $book["isbn"]
+                        )); 
         }
 
         echo json_encode($books);

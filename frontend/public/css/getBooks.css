@@ -1,3 +1,7 @@
+h1 {
+    font-weight: bold;
+}
+
 h1, .row {
     text-align: center;
 }

@@ -7,9 +7,9 @@ function getBooks() {
         processData: false,
         contentType: false
     }).done(function (response) {
-        console.log("Book data:", response);
-
-        $("#bookNames").text(response);
+        for (let i = 0; i < response.length; i++) {
+            $("#bookNames").append(response[i] + " <br>");
+        }
     });
 }
 
