@@ -10,13 +10,6 @@
             VALUES ('$bookName', '$author', '$isbn_number', '$publisher', '$price')"; //Inserting the form data into the database
 
     mysqli_query($db, $query); //Executing the insertion query
-
-    $query = "SELECT id FROM books WHERE publisher = '$publisher'";
-    $result = mysqli_query($db, $query);
-
-    $row = mysqli_fetch_array($result);
-    echo "id is: " . $row[0];
-
-    header('Location: http://localhost/BookBase_PHP/frontend/createBook.html')  //go to another page on error
+    //header('Location: http://localhost/BookBase_PHP/backend_php/getBooks.php')  //go to another page on error
     
 ?>
