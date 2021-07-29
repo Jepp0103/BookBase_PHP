@@ -1,8 +1,7 @@
-<h1 style="text-align: center;">Create book</h1>
+<?php include '../includes/navbar.php'; ?>
+<link rel="stylesheet" href="../css/createBook.css">
 
-<head>
-    <link rel="stylesheet" href="css/createBook.css">
-</head>
+<h1 style="text-align: center;">Create book</h1>
 <form action="http://localhost/BookBase_PHP/backend_php/addBook.php" method="POST" name="addbook">
     <div class="row">
         <div class="col-sm">
@@ -26,3 +25,4 @@
 
     <input type="submit" value="Create book" class="btn btn-primary">
 </form>
+<?php include '../includes/footer.php'; ?>

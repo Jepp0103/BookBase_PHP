@@ -10,6 +10,6 @@
             VALUES ('$bookName', '$author', '$isbn_number', '$publisher', '$price')"; //Inserting the form data into the database
 
     mysqli_query($db, $query); //Executing the insertion query
-    //header('Location: http://localhost/BookBase_PHP/backend_php/getBooks.php')  //go to another page on error
+    header('Location: http://localhost/BookBase_PHP/frontend/public/booksPage.php')  //go to another page on error
     
 ?>
