@@ -7,6 +7,11 @@ form {
 #authorLabel, #author,
 #publisherLabel, #publisher,
 #isbnLabel, #isbn,
-#priceLabel, #price {
+#priceLabel, #price, #updateBookButton {
     display: none;
+}
+
+#mainDiv {
+    justify-content: flex-end;
+    margin-left: 15pc;
 }

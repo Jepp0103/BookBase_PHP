@@ -1,6 +1,7 @@
 <?php
     function getBook(){
-    //    $bookId = $_GET['id'];
+        // $bookId = $_GET['id'];
+
         $bookId = $_POST['bookId'];
         $db = mysqli_connect("localhost", "root", "password", "bookbase"); //Server host, username, password and database name credentials.
         $query = "SELECT * FROM books WHERE id = $bookId";
