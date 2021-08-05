@@ -18,10 +18,10 @@
             <a href="http://localhost/BookBase_PHP/frontend/public/pages/booksPage.php" style="color:white;">Home</a>
         </button>
         <button type="button" class="btn btn-primary">
-            <a href="/updateUser" style="color:white;">Update book</a>
+            <a href="http://localhost/BookBase_PHP/frontend/public/pages/updateBookPage.php" style="color:white;">Update book</a>
         </button>
         <button type="button" class="btn btn-primary">
-            <a href="http://localhost/BookBase_PHP/frontend/public/pages/createBook.php" style="color:white;">Create book</a>
+            <a href="http://localhost/BookBase_PHP/frontend/public/pages/createBookPage.php" style="color:white;">Create book</a>
         </button>
         <button type="button" class="btn btn-primary">
             <a href="/help" style="color:white;">Help</a>

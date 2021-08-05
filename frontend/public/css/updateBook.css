@@ -1,0 +1,12 @@
+form {
+    text-align: center; 
+    padding-bottom: 2em;
+}
+
+#bookNameLabel, #bookName, 
+#authorLabel, #author,
+#publisherLabel, #publisher,
+#isbnLabel, #isbn,
+#priceLabel, #price {
+    display: none;
+}
